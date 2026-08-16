@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Happy Birthday {{HER_NAME}} — A Map of Us</title>
+<title>Happy Birthday Mimi — A Map of Us</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 <style>
@@ -154,7 +154,7 @@
 
 <div id="intro-overlay">
   <div id="intro-card">
-    <h1>Happy Birthday, {{HER_NAME}} ✦</h1>
+    <h1>Happy Birthday, Mimi ✦</h1>
     <p>This is our little sky. Move your mouse — or drag your finger — to look around, and tap each star for a memory.</p>
     <button id="start-btn">start exploring →</button>
   </div>
@@ -179,31 +179,20 @@
 </div>
 
 <script>
-/* ============================================================
-   ✏️  EDIT YOUR MEMORIES HERE — everything else draws itself
-   from this list (the stars, the constellation trail, the map).
 
-   - Find & replace {{HER_NAME}} everywhere in this file with her name.
-   - Change "heading" and "message" for each memory below.
-   - By default each card shows a "add a photo" frame. To use a
-     REAL photo instead, add an "img" field, e.g.
-       img: "photos/us-1.jpg"
-     (put the image file in a "photos" folder next to this html file)
-   - Add or remove memory objects freely.
-   ============================================================ */
 const memories = [
   { x: 420,  y: 340,  heading: "How We Met",
-    message: "✏️ Write the story of the day you first met — where you were, what you noticed, the little detail you still remember." },
-  { x: 950,  y: 640,  heading: "Our First Date",
-    message: "✏️ What did you two do? What was the moment you thought, 'okay, I really like this person'?" },
-  { x: 1520, y: 380,  heading: "That Trip We Took",
-    message: "✏️ Tell the story of a trip or adventure together — the good parts, and the parts that went hilariously wrong." },
+    message: "Imagine finding the love of your life, in a comment section of a stupid sage reel :) that's us. I don't know how insane that fate was, but it is." },
+  { x: 950,  y: 640,  heading: "Perfection",
+    message: "That's who you are. You're jut so perfectly amazing, I don't have to worry about anything with you. It's like, the whole life I'll spend my time with you and I'll love every second of it." },
+  { x: 1520, y: 380,  heading: "Our activities",
+    message: "Watching your silly shows, playing games- me building things while you just stare at me in Minecraft :P I love being with you. I love making you smile and be happy." },
   { x: 2040, y: 800,  heading: "Silly Us",
-    message: "✏️ An inside joke, a dumb nickname, something that still makes you both laugh out of nowhere." },
+    message: "Imagine calling each other Mimi and Zazu. We're cringe, but we love each other so it's fine :P" },
   { x: 1260, y: 1180, heading: "Why I Love You",
-    message: "✏️ Three or four real, specific reasons you love her — not generic ones, the true ones." },
-  { x: 1880, y: 1400, heading: "Happy Birthday, {{HER_NAME}} 🎂",
-    message: "✏️ Your birthday message to her. Say exactly what you'd want to say if she were standing in front of you.",
+    message: "Its like you make my life so easy. I love how perfectly you take care of me, and I'd love to make sure I keep you happy all the time. That's my life goal, Just to keep you happy all your life." },
+  { x: 1880, y: 1400, heading: "Happy Birthday, Mimi 🎂",
+    message: "My love. You go through alot, and you're the strongest person I know. I'm right here, as your wall, as your support, and I love you so much.",
     final: true },
 ];
 
